@@ -1,3 +1,5 @@
 language = "nodejs"
-run = "node src/app.js"
-entrypoint = "src/assignment.js"
+run = "npm run start"
+
+[nix]
+channel = "stable-22_05"
